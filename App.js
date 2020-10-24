@@ -160,6 +160,20 @@ export default function App() {
   </View>
 
 
+  <View style={styles.card}>
+    <View style={{padding: 15, paddingRight: 27}}>
+    <TouchableOpacity onPress={() => Linking.openURL('https://github.com/abdullahminhas/abdullahminhas.github.io')}>
+      <Text style={{fontSize: 18, fontWeight: "700", color: "#0366D6"}}>react-native-portfolio</Text>
+    </TouchableOpacity>
+      <Text style={{fontSize: 12, textAlign: "justify", color: "black", paddingTop: 10, color: '#586069'}}>I created a portfolio specifaclly for mobile user in react native.</Text>
+      <View style={{flexDirection: "row", marginTop: 28}}>
+      <View style={styles.circleJs} />
+      <Text style={{paddingLeft: 4, color: '#586069'}}>JavaScript</Text>
+      </View>
+    </View>
+  </View>
+
+
   </ScrollView>
     </SafeAreaView>
   );
